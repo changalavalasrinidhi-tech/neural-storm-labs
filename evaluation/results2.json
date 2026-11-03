@@ -1,0 +1,60 @@
+{
+ "shipped_rules": {
+  "acc": 0.5128968253968254,
+  "balanced": 0.5128968253968254,
+  "real_correct": 1.0,
+  "fake_recall": 0.025793650793650792,
+  "per_fake": {
+   "upsample": 0.0,
+   "grid": 0.104,
+   "smooth": 0.0,
+   "splice": 0.0
+  }
+ },
+ "logreg_loso": {
+  "acc": 0.7777777777777778,
+  "balanced": 0.7777777777777778,
+  "real_correct": 0.7361111111111112,
+  "fake_recall": 0.8194444444444444,
+  "per_fake": {
+   "upsample": 0.918,
+   "grid": 0.872,
+   "smooth": 0.956,
+   "splice": 0.516
+  }
+ },
+ "gboost_loso": {
+  "acc": 0.7371031746031746,
+  "balanced": 0.7371031746031746,
+  "real_correct": 0.6031746031746031,
+  "fake_recall": 0.871031746031746,
+  "per_fake": {
+   "upsample": 0.975,
+   "grid": 0.888,
+   "smooth": 0.993,
+   "splice": 0.615
+  }
+ },
+ "unseen_family_gboost": {
+  "upsample": {
+   "acc": 0.65814696485623,
+   "fake_recall": 0.7049180327868853,
+   "real_correct": 0.6468253968253969
+  },
+  "grid": {
+   "acc": 0.6470588235294118,
+   "fake_recall": 0.424,
+   "real_correct": 0.7023809523809523
+  },
+  "smooth": {
+   "acc": 0.6885758998435054,
+   "fake_recall": 0.9703703703703703,
+   "real_correct": 0.6130952380952381
+  },
+  "splice": {
+   "acc": 0.6230031948881789,
+   "fake_recall": 0.2540983606557377,
+   "real_correct": 0.7123015873015873
+  }
+ }
+}

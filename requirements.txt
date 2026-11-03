@@ -1,0 +1,18 @@
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+streamlit>=1.36.0
+opencv-python>=4.8.0
+# Any mediapipe works: <=0.10.21 uses mp.solutions, newer uses the Tasks API (python scripts/download_models.py).
+# The old exact pin (==0.10.21) and numpy<2.0 cannot be installed on Python 3.13.
+mediapipe>=0.10.21
+timm>=0.9.16
+librosa>=0.10.1
+numpy>=1.24.0
+Pillow>=10.0.0
+matplotlib>=3.8.0
+scipy>=1.11.0
+plotly>=5.18.0
+requests>=2.31.0
+packaging>=23.0
+# optional, tests only: scikit-image (sample photo)
